@@ -1,0 +1,20 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	max-width: 880px;
+	margin: 45px 200px 60px;
+}
+
+@media screen and (max-width: 540px) {
+	.content {
+		max-width: 500px;
+		margin: 42px auto 48px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.content {
+		max-width: 320px;
+		margin: 38.25px auto 48px;
+	}
+}

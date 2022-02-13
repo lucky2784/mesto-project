@@ -1,0 +1,9 @@
+.photo__item {
+	display: grid;
+	/* width: 100%; */
+	max-width: 282px;
+	font-style: normal;
+	border-radius: 10px;
+  overflow: hidden;
+	background: #fff;
+}
