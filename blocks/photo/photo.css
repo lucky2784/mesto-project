@@ -5,3 +5,17 @@
   grid-template-rows: auto;
   gap: 17px;
 }
+
+@media screen and (max-width: 900px) {
+  .photo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .photo {
+    max-width: 282px;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    gap: 20px;
+  }
+}
