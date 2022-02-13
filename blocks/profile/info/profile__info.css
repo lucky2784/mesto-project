@@ -1,19 +1,13 @@
-/* .profile__info {
-  max-width: 336px;
-  padding-top: 22px;
-  padding-left: 0;
-  padding-bottom: 25px;
-  padding-right: 244px;
-} */
-
 .profile__info {
-  display: grid;
-  max-width: 336px;
+  display: flex;
   align-items: center;
-  margin-top: 22px;
+  /* align-items: baseline; */
+  /* max-width: 336px; */
+
+  /* margin-top: 22px;
   margin-left: 0;
   margin-bottom: 25px;
-  row-gap: 13px;
+  row-gap: 13px; */
   /* column-gap: 18px; */
 
 }

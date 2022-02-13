@@ -1,14 +1,18 @@
 .profile__button-add {
-	background-image: url("../../../images/Vector\ \(1\).svg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 22px;
-	background-color: #000;
-	min-width: 150px;
-	min-height: 50px;
-	padding: 0;
-	border: 2px solid #ffffff;
-	box-sizing: border-box;
-	border-radius: 2px;
+  background-image: url("../../../images/Vector-plus.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-color: #000;
+  min-width: 150px;
+  min-height: 50px;
+  padding: 0;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  opacity: 1;
+}
 
+.profile__button-add:hover {
+  opacity: .7;
 }
