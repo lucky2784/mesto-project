@@ -1,8 +1,32 @@
 .footer {
   display: flex;
   max-width: 880px;
-  margin: 0 auto 0 200px;
+  margin: 0 200px 0 ;
   padding: 0 0 60px;
   /* min-width: 282px;
   justify-content: start; */
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 0 72px 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0 93px 0;
+    padding-bottom: 45px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 282px;
+    min-height: 56px;
+    margin: 0 19px 0;
+    padding-bottom: 36px;
+  }
 }

@@ -15,22 +15,23 @@
 @import url(../../mesto-project/blocks/profile/__button-add/profile__button-add.css);
 @import url(../../mesto-project/blocks/profile/__activity/profile__activity.css);
 
-@import url(../blocks/photo/photo.css);
-@import url(../blocks/photo/__cards/photo__cards.css);
-@import url(../blocks/photo/__heart/photo__heart.css);
-@import url(../blocks/photo/__heart/_active/photo__heart_active.css);
-@import url(../blocks/photo/__image/photo__image.css);
-@import url(../blocks/photo/__item/photo__item.css);
-@import url(../blocks/photo/__name/photo__name.css);
+@import url(../../mesto-project/blocks/photo/photo.css);
+@import url(../../mesto-project/blocks/photo/__cards/photo__cards.css);
+@import url(../../mesto-project/blocks/photo/__heart/photo__heart.css);
+@import url(../../mesto-project/blocks/photo/__heart/_active/photo__heart_active.css);
+@import url(../../mesto-project/blocks/photo/__image/photo__image.css);
+@import url(../../mesto-project/blocks/photo/__item/photo__item.css);
+@import url(../../mesto-project/blocks/photo/__name/photo__name.css);
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../../mesto-project/blocks/footer/footer.css);
+@import url(../../mesto-project/blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/__close-icon/popup__close-icon.css);
-@import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__fieldset/popup__fieldset.css);
-@import url(../blocks/popup/__form-text/popup__form-text.css);
-@import url(../blocks/popup/__name/popup__name.css);
-@import url(../blocks/popup/__submit-button/popup__submit-button.css);
+@import url(../../mesto-project/blocks/popup/popup.css);
+@import url(../../mesto-project/blocks/popup/__close-icon/popup__close-icon.css);
+@import url(../../mesto-project/blocks/popup/_opened/popup_opened.css);
+@import url(../../mesto-project/blocks/popup/__container/popup__container.css);
+@import url(../../mesto-project/blocks/popup/__fieldset/popup__fieldset.css);
+@import url(../../mesto-project/blocks/popup/__form-text/popup__form-text.css);
+@import url(../../mesto-project/blocks/popup/__name/popup__name.css);
+@import url(../../mesto-project/blocks/popup/__submit-button/popup__submit-button.css);
+
