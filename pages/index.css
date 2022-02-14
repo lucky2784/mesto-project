@@ -1,19 +1,19 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
-@import url(../blocks/page/page.css);
+@import url(../../mesto-project/vendor/normalize.css);
+@import url(../../mesto-project/vendor/fonts/fonts.css);
+@import url(../../mesto-project/blocks/page/page.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__line/header__line.css);
+@import url(../../mesto-project/blocks/header/header.css);
+@import url(../../mesto-project/blocks/header/__logo/header__logo.css);
+@import url(../../mesto-project/blocks/header/__line/header__line.css);
 
-@import url(../blocks/content/content.css);
-@import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/__avatar/profile__avatar.css);
-@import url(../blocks/profile/info/profile__info.css);
-@import url(../blocks/profile/__title/profile__title.css);
-@import url(../blocks/profile/__button-edit/profile__button-edit.css);
-@import url(../blocks/profile/__button-add/profile__button-add.css);
-@import url(../blocks/profile/__activity/profile__activity.css);
+@import url(../../mesto-project/blocks/content/content.css);
+@import url(../../mesto-project/blocks/profile/profile.css);
+@import url(../../mesto-project/blocks/profile/__avatar/profile__avatar.css);
+@import url(../../mesto-project/blocks/profile/info/profile__info.css);
+@import url(../../mesto-project/blocks/profile/__title/profile__title.css);
+@import url(../../mesto-project/blocks/profile/__button-edit/profile__button-edit.css);
+@import url(../../mesto-project/blocks/profile/__button-add/profile__button-add.css);
+@import url(../../mesto-project/blocks/profile/__activity/profile__activity.css);
 
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/photo/__cards/photo__cards.css);
