@@ -1,7 +1,7 @@
 .photo__cards {
   background-color: #fff;
   max-width: 282px;
-  min-height: 362px;
+  max-height: 361px;
   margin: 0;
   border-radius: 10px;
 }

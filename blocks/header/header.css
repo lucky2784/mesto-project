@@ -4,11 +4,13 @@
   min-height: 74px;
   justify-content: start;
   margin: 45px auto 0;
+  border-bottom: 1px solid #545454;
 }
+
+
 
 @media screen and (max-width: 900px) {
   .header {
-    /* -width: 320px; */
     min-height: 56px;
     margin: 28px 0 0;
   }

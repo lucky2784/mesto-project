@@ -1,11 +1,13 @@
 .profile__info {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  align-self: end;
 }
 
 @media screen and (max-width: 900px) {
   .profile__info {
     max-width: 320px;
     padding-top: 26px;
+    align-self: center;
   }
 }

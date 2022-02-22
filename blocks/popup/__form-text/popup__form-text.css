@@ -1,6 +1,6 @@
 .popup__form-text {
-  min-width: 358px;
-  max-height: 14px;
+  width: 358px;
+  height: 14px;
   border: none;
   text-overflow: ellipsis;
   font-size: 14px;
@@ -11,4 +11,11 @@
 
 .popup__form-text:last-of-type {
   margin-top: 30px;
+
+}
+
+@media screen and (max-width:900px) {
+  .popup__form-text {
+    width: 238px;
+  }
 }

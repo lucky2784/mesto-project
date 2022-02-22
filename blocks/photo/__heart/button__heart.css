@@ -1,4 +1,4 @@
-.photo__heart {
+.button__heart {
   background-image: url(../../../images/heart.svg);
   background-color: #fff;
   cursor: pointer;
@@ -10,6 +10,6 @@
   opacity: 1;
 }
 
-.photo__heart:hover {
+.button__heart:hover {
   opacity: 0.5;
 }
