@@ -14,11 +14,12 @@
   transition: opacity 0.1s linear;
 }
 
+.profile__button-edit:hover{
+  opacity: .7;
+}
 
 @media screen and (max-width: 900px) {
   .profile__button-edit {
-    left: 255px;
-    top: 280px;
     width: 18px;
     height: 18px;
     margin-left: 10px;
