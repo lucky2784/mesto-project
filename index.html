@@ -1,145 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <title>Место</title>
-  </head>
 
-  <body class="page">
-    <header class="header">
-      <img class="header__logo" src="./images/logo.svg" alt="Место" />
-    </header>
-    <main class="content">
-      <section class="profile">
-        <img
-          class="profile__avatar"
-          src="./images/Без_названия.jpg"
-          alt="Аватар"
-        />
-        <div class="profile__info">
-          <h1 class="profile__title">Серафима Бах</h1>
-          <button type="button" class="profile__button-edit"></button>
-        </div>
-        <p class="profile__activity">Город глазами туриста</p>
-        <button type="button" class="profile__button-add"></button>
-      </section>
-      <section class="photo">
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/9-Maritime_station.jpg"
-            alt="Морской порт"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Морской порт</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/10-Winter_Theater-e1534146125132.jpg"
-            alt="Зимний театр"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Зимний театр</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/7-Cathedral_of_Archangel_Michael-e1534145766423.jpg"
-            alt="Собор Михаила Архангела"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Собор Михаила Архангела</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/rotonda.jpg"
-            alt="Ротонда Сочи"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Ротонда Сочи</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/Prometei.jpg"
-            alt="Прометей"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Прометей</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-        <figure class="photo__cards">
-          <img
-            class="photo__image"
-            src="./images/image-3.jpg"
-            alt="Гора Ахун"
-          />
-          <figcaption class="photo__item">
-            <h2 class="photo__name">Гора Ахун</h2>
-            <button
-              type="button"
-              class="button__heart button__heart_active"
-            ></button>
-          </figcaption>
-        </figure>
-      </section>
-    </main>
-    <footer class="footer">
-      <p class="footer__copyright">&copy; 2022 Mesto Sochi</p>
-    </footer>
-    <div class="popup">
-      <div class="popup__container">
-        <button type="button" class="popup__close-icon"></button>
-        <h2 class="popup__name">Редактировать профиль</h2>
-        <form class="popup__form" name="popup">
-          <fieldset class="popup__fieldset">
-            <input
-              class="popup__form-text"
-              type="text" placeholder="Жак-Ив Кусто"
-              value="Серафима Бах"
-              name="name"
-            />
-            <input
-              class="popup__form-text"
-              type="text" placeholder="Исследователь океана"
-              value="Город глазами туриста"
-              name="about"
-            />
-            <button type="submit" class="popup__submit-button">
-              Сохранить
-            </button>
-          </fieldset>
-        </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Место</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__logo" src="./images/logo.svg" alt="Место">
+  </header>
+
+  <main class="content">
+    <section class="profile">
+      <img class="profile__avatar" src="./images/Без_названия.jpg" alt="Аватар">
+      <div class="profile__info">
+        <h1 class="profile__title">Серафима Бах</h1>
+        <button type="button" class="profile__button-edit"></button>
       </div>
+      <p class="profile__activity">Город глазами туриста</p>
+      <button type="button" class="profile__button-add"></button>
+    </section>
+
+    <section class="photo">
+
+    </section>
+
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2022 Mesto Sochi</p>
+  </footer>
+  <div class="popup popup_edit">
+    <div class="popup__container">
+      <button type="button" class="popup__close-icon"></button>
+      <h2 class="popup__name">Редактировать профиль</h2>
+      <form class="popup__form" name="popup_edit" action="#">
+        <fieldset class="popup__fieldset">
+          <input class="popup__form-text" type="text" id="name" placeholder="Жак-Ив Кусто" value="Серафима Бах" name="name">
+          <input class="popup__form-text" type="text" id="about" placeholder="Исследователь океана" value="Город глазами туриста"
+            name="about">
+          <button type="submit" class="popup__submit-button">Сохранить</button>
+        </fieldset>
+      </form>
     </div>
-  </body>
+  </div>
+  <div class="popup popup_add">
+    <div class="popup__container">
+      <button class="popup__close-icon" type="button"></button>
+      <h2 class="popup__name">Новое место</h2>
+      <form class="popup__form" name="popup_add" action="#">
+        <fieldset class="popup__fieldset">
+          <input class="popup__form-text" type="text" placeholder="Название" name="name" />
+          <input class="popup__form-text" type="text" placeholder="Ссылка на картинку" name="about" />
+          <button class="popup__submit-button" type="submit">Создать</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <section class="popup popup_zoom">
+    <div class="popup__container-zoom">
+      <button class="popup__close-icon" type="button" aria-label="Закрыть"></button>
+      <img class="popup__cards" alt="#">
+      <h2 class="popup__card-title"></h2>
+    </div>
+  </section>
+  <template id="photo-template">
+    <figure class="photo__cards">
+      <button type="button" class="button__delete"></button>
+      <img class="photo__image" src="#" alt="#">
+      <figcaption class="photo__item">
+        <h2 class="photo__name"></h2>
+        <button type="button" class="button__heart"></button>
+      </figcaption>
+    </figure>
+  </template>
+  <script src="script.js"></script>
+</body>
+
 </html>
