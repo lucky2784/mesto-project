@@ -2,11 +2,11 @@
 const popupEdit = document.querySelector('.popup_edit');
 const popupAdd = document.querySelector('.popup_add');
 const popupZoom = document.querySelector('.popup_zoom');
-const closeButton = document.querySelector('.popup__close-icon');
-const closeButtonAdd = popupAdd.querySelector('.popup__close-icon');
-const closeButtonZoom = popupZoom.querySelector('.popup__close-icon');
-const editButton = document.querySelector('.profile__button-edit');
-const addButton = document.querySelector('.profile__button-add');
+const buttonClose = document.querySelector('.popup__close-icon');
+const buttonCloseAdd = popupAdd.querySelector('.popup__close-icon');
+const buttonCloseZoom = popupZoom.querySelector('.popup__close-icon');
+const buttonEdit = document.querySelector('.profile__button-edit');
+const buttonAdd = document.querySelector('.profile__button-add');
 const popupCards = document.querySelector('.popup__cards');
 const popupCardTitle = document.querySelector('.popup__card-title');
 const nameInput = document.querySelector('#name');
@@ -30,26 +30,27 @@ function closePopup(popup) {
   popup.classList.remove('popup_opened');
 }
 
-editButton.addEventListener('click', function () {
-  openPopup(popupEdit);
+buttonEdit.addEventListener('click', function () {
   nameInput.value = profileName.textContent;
   aboutInput.value = profileAbout.textContent;
+  openPopup(popupEdit);
+
 });
 
-addButton.addEventListener('click', function () {
+buttonAdd.addEventListener('click', function () {
   openPopup(popupAdd);
 });
 
 //закрытие попапа , клик
-closeButton.addEventListener('click', function () {
+buttonClose.addEventListener('click', function () {
   closePopup(popupEdit);
 });
 
-closeButtonAdd.addEventListener('click', function () {
+buttonCloseAdd.addEventListener('click', function () {
   closePopup(popupAdd);
 });
 
-closeButtonZoom.addEventListener('click', function () {
+buttonCloseZoom.addEventListener('click', function () {
   closePopup(popupZoom);
 });
 
@@ -93,7 +94,7 @@ const initialCards = [{
 
 ];
 
-const photoCards = document.querySelector('.photo');
+const cardsContainer = document.querySelector('.photo');
 const photoTemplate = document.querySelector('#photo-template').content;
 
 //добавляем функцию  активного лайка
@@ -129,7 +130,7 @@ const createPlaceCard = function (items) {
 
 //функция создания и добавления новой карточки в начале
 const newAddCard = function(items){
-  photoCards.prepend(createPlaceCard(items));
+  cardsContainer.prepend(createPlaceCard(items));
 }
 // пишем функцию кнопки "Создать" для новой карточки
 const addCard = function(evt) {
@@ -147,7 +148,7 @@ popupFormAdd.addEventListener('submit', addCard);
 const cardsList = initialCards.map (function(items) {
   return createPlaceCard(items);
 });
-photoCards.append(...cardsList);
+cardsContainer.append(...cardsList);
 
 
 
