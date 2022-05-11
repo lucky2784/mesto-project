@@ -3,14 +3,3 @@
   max-height: 75vh;
 }
 
-@media screen  and (max-width:900px) {
-  .popup__cards {
-    max-height: 400px;
-}
-}
-
-@media screen  and (max-width:400px) {
-  .popup__cards {
-    max-height: 299px;
-}
-}
